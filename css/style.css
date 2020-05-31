@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: black;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forward
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.5;
+        color: rgb(145, 145, 145);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.header {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    justify-content: center;
+}
+
+#particles-js {
+    position: relative;
+    height: 100%;
+    justify-content: center;
+}
+
+.logo {
+    height: 10px;
+    width: 100px;
+    top: 100px;
+}
+
+.logo_in {
+    height: 100px;
+}
+
+.me {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    top: 30%;
+    letter-spacing: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+}
+
+.span {
+    left: 30%;
+    font-size: 70px;
+    position: auto;
+}
+
+.center {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    top: 50%;
+    font-weight: 900;
+    letter-spacing: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.below {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: white;
+    top: 60%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 20px;
+}
